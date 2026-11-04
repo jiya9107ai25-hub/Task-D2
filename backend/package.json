@@ -1,0 +1,24 @@
+{
+  "name": "sit313-p2-welcome-email",
+  "version": "1.0.0",
+  "description": "SIT313 P2 DEV@Deakin Welcome Email Subscription",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jiya Arora",
+  "license": "ISC",
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase-admin": "^14.5.0",
+    "form-data": "^4.0.6",
+    "jsonwebtoken": "^9.0.3",
+    "mailgun.js": "^14.0.0"
+  }
+}
